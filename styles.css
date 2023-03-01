@@ -181,6 +181,13 @@ The p elements are nested in an article element with the class attribute of item
 .item p { }
 Using the above selector, add a display property with value inline-block so the p elements behave more like inline elements. */
 
+/* Step 73
+Focusing on the menu items and prices, there is a fairly large gap between each line.
+
+Target all the p elements nested in elements with the class named item and set their top and bottom margin to be 5px. */
+
 .item p {
   display:  inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
