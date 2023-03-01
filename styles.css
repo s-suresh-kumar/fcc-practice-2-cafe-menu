@@ -1,5 +1,11 @@
 /* Step 18
 The text is centered again so the link to the CSS file is working. Add another style to the file that changes the background-color property to brown for the body element. */
+
+/* Step 57
+You can change the font-family of text, to make it look different from the default font of your browser. Each browser has some common fonts available to it.
+
+Change all the text in your body, by adding a font-family property with the value sans-serif. This is a fairly common font that is very readable. */
+
 body {
   /* Step 19
   That brown background makes it hard to read the text. Change the body element's background color to be burlywood so it has some color but you are still be able to read the text. */
@@ -14,7 +20,7 @@ Since the cafe's main product for sale is coffee, you could use an image of coff
 
 Delete the comment and its contents inside the body type selector. Now add a background-image property and set its value to url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg). */
   background: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-
+  font-family: sans-serif;
 }
 
 /* Step 14
