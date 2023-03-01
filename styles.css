@@ -75,8 +75,12 @@ The default properties of an hr element will make it appear as a thin light grey
 
 Change the height of the hr element to be 3px. */
 
+/* Step 68
+Change the background color of the hr element to brown so it matches the color of the coffee beans. */
+
 hr {
   height: 3px;
+  background-color: brown;
 }
 
 /* Step 58
