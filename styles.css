@@ -62,9 +62,12 @@ Well that did not work. Styling the p elements as inline-block and placing them 
 
 Change the width value to 49% for each class to see what happens. */
 
+/* Step 41
+Now go ahead and change both the flavor and price class' widths to be 50% again. */
+
 .flavor {
   text-align: left;
-  width:49%;
+  width:50%;
 }
 
 /* Step 35
@@ -72,7 +75,7 @@ Now align the text to the right for the elements with the price class. */
 
 .price {
   text-align: right;
-  width:49%;
+  width:50%;
 }
 
 /* Step 37
