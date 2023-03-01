@@ -19,7 +19,14 @@ We have created a separate styles.css file for you and switched the editor view 
 Start by rewriting the styles you have created into the styles.css file. Make sure to exclude the opening and closing style tags. */
 /* Step 21
 The goal now is to make the div not take up the entire width of the page. The CSS width property is perfect for this. Create a new type selector in the style sheet that gives your div element a width of 300px. */
-div {
+/* Step 26
+So far you have been using type selectors to style elements. A class selector is defined by a name with a dot directly in front of it, like this:
+
+.class-name {
+  styles
+}
+Change the existing div selector into a class selector by replacing div with a class named menu. */
+.menu {
   /* Step 24
 Now it's easy to see that the text is centered inside the div element. Currently, the width of the div element is specified in pixels (px). Change the width property's value to be 80%, to make it 80% the width of its parent element (body). */
   width: 80%;
