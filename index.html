@@ -14,7 +14,11 @@ The title is one of several elements that provide extra information not visible 
 
 Inside the head element, nest a meta element with an attribute named charset set to the value utf-8 to tell the browser how to encode characters for the page. Note that meta elements are self-closing. -->
 <meta charset="utf-8">
-<style></style>
+<style>
+ h1 {
+        text-align: center;
+      }
+</style>
 
 </head>
 <!-- Step 4 -->
@@ -36,7 +40,14 @@ Create an h2 element in the section element and give it the text Coffee. -->
   <h2>Coffee</h2>
   <!-- Step 10
   Up until now, you have been limited regarding the presentation and appearance of the content you create. To start taking control, add a style element within the head element. -->
-
+  
+  <!-- Step 11
+  You can add style to an element by specifying it in the style element and setting a property for it like this:
+  
+  element {
+   property: value;
+  }
+  Center your h1 element by setting its text-align property to the value center. -->
 </section>
 
 </main>
