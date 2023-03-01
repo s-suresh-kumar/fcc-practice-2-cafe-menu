@@ -10,6 +10,7 @@ Comments in CSS look like this:
 In your style sheet, comment out the line containing the background-color property and value, so you can see the effect of only styling div element. This will make the background white again. */
   /* background-color: burlywood; */
 }
+
 /* Step 14
 You have styled three elements by writing CSS inside the style tags. This works, but since there will be many more styles, it's best to put all the styles in a separate file and link to it.
 
@@ -25,7 +26,14 @@ Now it's easy to see that the text is centered inside the div element. Currently
   /* Step 23
 Now use the existing div selector to set the background color of the div element to be burlywood. */
   background-color: burlywood;
+  /* Step 25
+Next, you want to center the div horizontally. You can do this by setting its margin-left and margin-right properties to auto. Think of the margin as invisible space around an element. Using these two margin properties, center the div element within the body element. */
+  margin-left: auto;
+  margin-right: auto;
 }
-h1, h2, p {
+
+h1,
+h2,
+p {
   text-align: center;
 }
